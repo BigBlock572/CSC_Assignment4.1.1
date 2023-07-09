@@ -1,0 +1,36 @@
+body
+{
+    background: url(Spider_Lilli.jpg); /*The image that was used as the backgorund*/
+    background-size: 100%; /*The size of the background picture*/
+    width: 95%; /*How wide the picture was made to be*/
+}
+
+h1
+{
+    text-align:end; /*Moved the main headed to the end of the page*/
+    font-size: 100px; /*How big the font for the header is going to be*/
+    font-family:'Courier New', Courier, monospace;/*The style of the font that was used*/
+    font-style:oblique; /*Made the font much cleaner than it originally was*/
+    font-weight: lighter; /*Made the font look thiner*/
+}
+
+h2
+{
+    font-size: 85px; /*The size of the font for the second header*/
+}
+
+p
+{
+    text-align: center; /*Moved the buttons to the center*/
+}
+
+button /*Controlls when the picture moves and stops*/
+{
+    height: 50px; /*How tall the button gets*/
+    width: 85px; /*How wide the button will get*/
+    font-size: 20px;
+    font-weight: bold; 
+    border-style: hidden; /*Removed the border from the button*/
+    background-color: red; /*Changed the color of the button itself*/
+    color: white; /*Changed the color of the font to make it more visible*/
+}
